@@ -1,0 +1,23 @@
+
+#Docker
+- docker command env arg run entrypoint
+- docker mount types
+- docker networks
+- docker logging driver
+- docker process management
+- PID namespace
+
+
+#Networks 
+- TCP model: networks/Network_models.html
+- TCP UDP handshake
+- How Browser works
+- How DNS queries works
+
+
+#Linux
+- Memory management
+- inodes, how to check for a inode.
+- iptables types
+- sticky bits
+
