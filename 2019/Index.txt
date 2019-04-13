@@ -7,17 +7,19 @@
 - docker process management
 - PID namespace
 
-
 #Networks 
 - TCP model: networks/Network_models.html
-- TCP UDP handshake
+- TCP handshake
 - How Browser works
 - How DNS queries works
-
+- Web sockets
+- Http headers and status code.
+- How tools works, dig, nslookup and traceroute.
 
 #Linux
 - Memory management
 - inodes, how to check for a inode.
 - iptables types
 - sticky bits
+- /proc/cpuinfo server cache
 
