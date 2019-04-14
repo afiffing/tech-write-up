@@ -48,6 +48,27 @@ Port number are assigned by the Internet Assigned Numbers Authority (IANA) (or b
 <h1># TCP header Part 2 </h1>
 <iframe width="966" height="543" align="middle" src="https://www.youtube.com/embed/hsNuqtfxgRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<h1># TCP Window Size</h1>
+
+<ul>
+    <li><b>Window Size 16bits in TCP header:</b> Amount of the data in bytes that can flow, flow control is defined by window size.</li>
+  <li>MSS (Max Segment Size): 1460 bytes</li>
+<p> So, if 16 bits of Window Size represent 12000 bytes, then 12000 bytes of data can be received by buffers at the receiving side. If Segment size is 1200 bytes, then there can be 10 segments overall in the handshake process.</p>
+
+  <li>MTU Max transmission unit: is the largest packet or frame size, that can be sent in a packet- or frame-based network such as the internet. The maximum MTU of an interface will depend on the hardware platform, but the IEEE 802.3 standards require a minimum MTU of 1500 bytes. </li>
+    <br>
+  <img src="https://www.imperva.com/blog/wp-content/uploads/sites/9/2016/12/MTU-image-1.png" alt="MTU">
+  <p>As you can see in the figure above, the MTU is built from payload (also referred as data) and the TCP and the IP header, 20 bytes each. The total value of the IP and the TCP header is 40 bytes and mandatory for each packet, which leaves us 1460 bytes for our data.</p>
+
+  <li>Window Scale factor: n</li>
+  <li>Window size: With Scale factor Window size is Window Size* 2(raised to power n)</li>
+
+
+</ul>
+
+<h1># TCP Window Size and Window calculated size </h1>
+<iframe width="966" height="543" align="middle" src="https://www.youtube.com/embed/2PJVHvthrNU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <p>
 Video courtesy of
 <a href="https://www.youtube.com/" target="_blank">Youtube</a>.
