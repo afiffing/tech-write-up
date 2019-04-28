@@ -10,8 +10,10 @@
 #Networks 
 - TCP model: networks/Network_models.html
 - TCP handshake: Transport_layer.html
-- TCP connections states.
-- How DNS queries works.
+- TCP connections states: Transport_layer.html
+- How DNS resolution works: DNS.html
+- DNS zones and queries: DNS.html
+- DNS records: DNS.html
 - Web sockets.
 - Http headers and status code.
 - How tools works, dig, nslookup and traceroute.
