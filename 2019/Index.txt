@@ -11,7 +11,6 @@
 - TCP model: networks/Network_models.html
 - TCP handshake: Transport_layer.html
 - TCP connections states.
-- How Browser works.
 - How DNS queries works.
 - Web sockets.
 - Http headers and status code.

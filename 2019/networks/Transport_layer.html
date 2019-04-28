@@ -71,8 +71,20 @@ Port number are assigned by the Internet Assigned Numbers Authority (IANA) (or b
 
 <h1># TCP Connections states</h1>
 <img src="https://blog.confirm.ch/wp-content/uploads/2018/06/tcp_states_connect.jpg" alt="MTU">
+<p>
+  <ul>
+  <li>When a new TCP connection is opened, the client (initiator) sends a SYN packet to the server (receiver) and updates its state to  SYN-SENT.</li>
+  <li>The server will then send a SYN-ACK in reply to the client which changes its connection state to  SYN-RECEIVED.</li>
+  <li>If everything worked properly, the client will reply with an ACK and the connection is marked as ESTABLISHED on both end-point.</li>
+  <li>Now the client and the server are ready to transfer data.</li>
+</ul>
+</p>
+
 <img src="https://blog.confirm.ch/wp-content/uploads/2018/06/tcp_states_terminate.jpg" alt="MTU">
-<a href="https://blog.confirm.ch/tcp-connection-states/">Blog url</a>
+
+<br>
+Link to the Blog: <a href="https://blog.confirm.ch/tcp-connection-states/"> link </a>
+
 <p> Another good example of TCP 4 way handshake.</p>
 <img src="https://community.apigee.com/storage/attachments/893-screen-shot-2015-08-03-at-52034-pm.png" alt="MTU">
 <br>
