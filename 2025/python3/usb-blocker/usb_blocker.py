@@ -16,7 +16,7 @@ def load_allowed_devices(filepath):
                 allowed.add(line.lower())
     return allowed
 
-def unbind_device_by_sys_name(sys_name):
+def unbind_device_by_sys_name(sys_name):  #unmount and disconnect
     try:
         with open("/sys/bus/usb/drivers/usb/unbind", "w") as f:
             f.write(sys_name)
