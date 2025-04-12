@@ -54,3 +54,4 @@ def monitor_usb(allowed_devices):
 if __name__ == "__main__":
     allowed = load_allowed_devices(ALLOWED_FILE)
     monitor_usb(allowed)
+    
